@@ -1,0 +1,50 @@
+/build
+# Gradle
+.gradle/
+**/build/
+
+# Local SDK path
+local.properties
+
+# Kotlin
+.kotlin/
+
+# IntelliJ / Android Studio
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/shelf/
+
+# Keep the rest of .idea under version control
+# (Android Studio's .idea/.gitignore will ignore additional user-specific files.)
+
+# Module files
+*.iml
+
+# NDK
+.externalNativeBuild/
+.cxx/
+
+# APKs / AABs
+*.apk
+*.aab
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keystore files
+*.jks
+*.keystore
+
+# Environment / secrets
+.env
+.env.*
+keystore.properties
+signing.properties
