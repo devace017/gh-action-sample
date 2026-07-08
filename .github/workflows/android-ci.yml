@@ -1,0 +1,12 @@
+name: Build Android Project
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+      - name: Checkout Code
+        uses: actions/checkout@v7
+      - name: Build Project
+        run: echo "Building Project"
